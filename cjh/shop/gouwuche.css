@@ -1,0 +1,20 @@
+.margin{width:1226px;margin:0 auto;} 
+
+
+#shopping{background:#fff;width:100%;padding: 20px 0 60px 0;}
+#shopping .margin{width: 1226px;margin: 0 auto;position: relative;}
+#shopping .margin table{}
+#shopping .margin h3{font:30px/2 "";}
+#shopping .margin h3 a{display:block;color:orangered;}
+#shopping .margin table{width:1226px; text-align:center;}
+thead tr th{font:24px/2 "";color:rgb(43, 37, 37);border-bottom:2px solid rgb(43, 37, 37);}
+#shopping .liebiao tr{width:800px;}
+#shopping tbody tr img{width:100px;height:100px;}
+#shopping tbody tr td{margin:10px 0;border:2px solid #ccc;}
+#shopping tbody tr td:nth-child(3){font:18px/2 "";}
+#shopping tbody tr td:nth-child(4){font:18px/2 "";color:orangered;}
+#shopping tbody tr td:nth-child(6){font:18px/2 "";color:orangered;cursor:pointer}
+#shopping tbody tr td .changeNum{height:40px;width:40px;}
+
+#shopping .heji{height:40px;width:1226px;border-bottom:2px solid #333;font:18px/40px "";margin-top:40px;}
+

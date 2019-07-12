@@ -1,0 +1,14 @@
+.margin{width:1226px;margin:0 auto;} 
+
+#list{width:100%;height:900px;}
+
+#list .margin h3{display:block;font:24px/2 "";color:#333;}
+#list .margin h3 a{display:inline-block;font:16px/1 "";color:blue;margin-left:10px;}
+#list .margin p{font:16px/2 "";color:#333;}
+
+.box{float:left;cursor:pointer}
+.box img{width: 220px;height:300px;margin-right:20px;margin-top:10px}
+.box p{line-height: 16px;height:32px;overflow: hidden;margin:10px 0;}
+.box span{font:18px/1 "";color:#333;text-align: center;}
+.box em{width: 100px;height: 30px;line-height: 30px;text-align: center;
+margin: 10px 10px;display:inline-block;font-style: normal;background:#ff3600;color: #FFF;}
