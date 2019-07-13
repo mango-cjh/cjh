@@ -1,0 +1,159 @@
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select {
+  margin: 0;
+  padding: 0;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+}
+ul,li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+}
+
+/* 正式样式 */
+.bg {
+    width: 100%;
+    height:600px;
+    position: relative;background:#94c6e0;
+}
+.bg img{width:600px;height:500px;position: absolute;left:363px;top:45px;}
+
+
+/* 登陆框 */
+.container {
+    width: 380px;
+    height: 450px;
+    position: absolute;
+    top: 40px;
+    left:1300px;
+    margin-left: -270px;
+    padding: 40px 80px 30px 80px;
+}
+.container .container-1 {
+    width: 380px;
+    height: 58px;
+    padding: 0 68px;
+}
+.container .container-1 h3{font:24px/1 "" ;color:orangered;margin-left:60px;}
+.container .container-1 img {
+    height: 108px;
+    margin-top:-30px;
+    margin-left:-70px;
+}
+.container .container-1 span {
+    display: inline-block;
+    font-size: 40px;
+    height: 58px;
+    line-height: 58px;
+    vertical-align: top;
+    color: #116cad;
+}
+.container input {
+    width: 350px;
+    height: 45px;
+    outline: none;
+    padding: 0 15px;
+    position: absolute;
+    border: 1px solid #ccc;
+}
+.container .s1,.container .s2 {
+    display: block;
+    position: absolute;
+    width: 350px;
+    height: 20px;
+    padding: 0 15px;
+    color: orangered;
+    background-color: #f5d7d7;
+    border: 1px solid orangered;
+}
+.container .email {
+    top: 120px;
+}
+.container .password {
+    top: 200px;
+}
+.container .btn1 {
+    background-color: orangered;
+    font-size: 18px;
+    color: #fff;
+    width: 382px;
+    cursor: pointer;
+    width:100px;
+  position: absolute;left:197px;top:410px;
+}
+.container .s1 {
+    top: 165px;
+    display: none;
+}
+.container .s2 {
+    display: none;
+    top: 245px;
+}
+.container .a1 {
+    font-size: 14px;
+    color: #f36c79;
+    position: absolute;
+    top: 280px;
+}
+.container .txt {
+    top: 320px;
+    width: 100px;
+    height: 30px;
+}
+.container .btn2 {
+    position: absolute;
+    top: 320px;
+    left: 250px;
+    height: 30px;
+    width: 150px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.container .s3 {
+    width: 120px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    padding: 0 15px;
+    color: #f36c79;
+    background-color: #f5d7d7;
+    border: 1px solid #f36c79;
+    top: 352px;
+    text-align: center;
+    display: none;
+}
+
